@@ -1,2 +1,1 @@
-# linear-regression-from-scratch
-Gradient descent implemented from scratch in Python - derives the MSE loss function, computes partial derivatives by hand, and benchmarks the result directly against sklearn.
+Most people learn linear regression by calling .fit(). This notebook skips that and builds the optimizer from scratch - starting from the loss function, deriving the two partial derivatives using the chain rule, then running gradient descent manually. At the end it runs the same data through sklearn and compares MSE to verify the result.
