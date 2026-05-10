@@ -2,8 +2,8 @@
 
 Most people learn linear regression by calling `.fit()`. This skips that.
 
-Built the entire optimizer by hand — loss function, partial derivatives, 
-gradient descent loop — using only NumPy and pandas. No sklearn until the 
+Built the entire optimizer by hand - loss function, partial derivatives, 
+gradient descent loop - using only NumPy and pandas. No sklearn until the 
 end, where I run the same data through it to verify my MSE matches.
 
 ## What's in the notebook
